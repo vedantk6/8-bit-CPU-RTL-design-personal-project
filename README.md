@@ -1,19 +1,20 @@
 # 8-bit-CPU-RTL-Design
 
-ISA and design rule:
+Design rule:
 
 Data width = 8 bits
 
 Registers = 8 registers (R0 - R7), 8 bits each
 
-Instruction memory = 16 words
+Instruction memory = 255 words
 
 Data memory = 16 words
 
-Instruction encoding = [11:4] = opcode (3 bits)
+Instruction encoding = [11:8] = opcode (4 bits)
+                       [7:5] = rd (3 bits)
+                       [4:2] = rs (3 bits)
 
 opcodes:
-
 0000: {carry, y} = a + b; // Addition 
 0001: {carry, y} = a - b; // Subtraction 
 0010: y = a & b; // Bitwise AND 
