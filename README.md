@@ -1,7 +1,7 @@
 # 8-bit-CPU-RTL-Design
 
 ## Project Summary
-This project implements an 8-bit CPU RTL Design and aims to meet implement predetermined design rules. It showcases what a 8-bit CPU looks like at the RTL design level, how it is testbenched, and the importance of waveform analysis in verifying the functionality of the design. The code consists of RTL descriptions of all the components (registers, memory, decoder, ALU, etc.) and is fully executable in linux (requires Verilator and GTKWave to be installed).
+This project implements an 8-bit CPU RTL Design and aims to meet implement predetermined design rules. It showcases what an 8-bit CPU looks like at the RTL design level, how it is testbenched, and the importance of waveform analysis in verifying the functionality of the design. The code consists of RTL files of all the components (registers, memory, decoder, ALU, etc.) and is fully executable in linux (requires Verilator and GTKWave to be installed).
 
 ## Tools Used
 - Ubuntu
